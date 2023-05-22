@@ -2,8 +2,8 @@
 set -e
 
 # Push to docker repository
-docker tag docker-react-node-react-node:latest jaylordibe/react-node:latest
-docker push jaylordibe/react-node:latest
+docker tag docker-react-node-react-node:latest jaylordibe/react-node:18
+docker push jaylordibe/react-node:18
 
 # Push to github repository
 git add .
